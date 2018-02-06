@@ -1,0 +1,14 @@
+﻿<Window x:Class="ProtectEyes2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="212,234,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="120,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.475,0.462"/>
+
+    </Grid>
+</Window>
